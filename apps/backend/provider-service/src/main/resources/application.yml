@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: provider-service
+  main:
+    web-application-type: reactive
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    com.spectrayan.provider: DEBUG
